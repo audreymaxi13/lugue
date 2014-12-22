@@ -1,7 +1,7 @@
 {
-  "name": "Name of apps",
+  "name": "Apps 0",
   "version": "0.0.0",
-  "description": "Description of apps",
+  "description": "Experiment with webview",
   "main": "index.html",
   "moduleType": [
     "node"

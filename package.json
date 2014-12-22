@@ -1,7 +1,7 @@
 {
-  "name": "Nameofapps",
+  "name": "Apps0",
   "version": "0.0.0",
-  "description":"Description of apps",
+  "description":"Experiment with webview",
   "main": "index.html",
   "author": "Bayu Aldi Yansyah",
   "license": "MIT",
