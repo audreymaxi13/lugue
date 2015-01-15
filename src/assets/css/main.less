@@ -1,2 +1,21 @@
 // @import (less) "../../libs/normalize-css/normalize.css";
-// @import (less) "components/html/index.less";
+
+// import font
+@import (less) "fonts/montserrat.css";
+
+// make html and body fullscreen
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// import home style
+@import (less) "components/home.less";
