@@ -31,6 +31,16 @@ gulp.task("images", function () {
     .pipe(gulp.dest("./build/assets/images/"))
 })
 
+// video
+var videos = [
+    "./src/assets/video/*.*",
+    "./src/assets/video/**/*.*"
+]
+gulp.task("video", function () {
+  gulp.src(videos, { base: "./src/assets/video"})
+    .pipe(gulp.dest("./build/assets/video/"))
+})
+
 // svg
 var svgs = [
     "./src/assets/svg/*.*",
